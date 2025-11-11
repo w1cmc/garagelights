@@ -7023,46 +7023,46 @@
 			)
 		)
 		(pin "10"
-			(uuid "190f5e3b-c056-43b8-b161-cd5ae58b1e72")
+			(uuid "190f5e3b-c056-43b8-b161-cd5ae58b1e73")
 		)
 		(pin "7"
-			(uuid "01ce0edf-497d-40a0-b665-f747bd7fd3ec")
+			(uuid "01ce0edf-497d-40a0-b665-f747bd7fd3ed")
 		)
 		(pin "14"
-			(uuid "93dc1abb-2c8a-4d8c-ad28-f83ce23e37f1")
+			(uuid "93dc1abb-2c8a-4d8c-ad28-f83ce23e37f2")
 		)
 		(pin "6"
-			(uuid "f21e400e-0c64-41a1-a9c6-c88e28d91392")
+			(uuid "f21e400e-0c64-41a1-a9c6-c88e28d91393")
 		)
 		(pin "5"
-			(uuid "e934bd44-7f88-46ff-843a-585e6636c86c")
+			(uuid "e934bd44-7f88-46ff-843a-585e6636c86d")
 		)
 		(pin "1"
-			(uuid "9f5bd6aa-90ff-4dd9-bf1d-bdd4ebe4be94")
+			(uuid "9f5bd6aa-90ff-4dd9-bf1d-bdd4ebe4be95")
 		)
 		(pin "4"
-			(uuid "d5f8a83a-4773-41c6-b220-a7e1a6362e35")
+			(uuid "d5f8a83a-4773-41c6-b220-a7e1a6362e36")
 		)
 		(pin "2"
-			(uuid "a227a05b-db46-49fc-b358-d44817882354")
+			(uuid "a227a05b-db46-49fc-b358-d44817882355")
 		)
 		(pin "8"
-			(uuid "7c14e6b5-a5ba-446a-b7f9-3e939f6d54cc")
+			(uuid "7c14e6b5-a5ba-446a-b7f9-3e939f6d54cd")
 		)
 		(pin "11"
-			(uuid "93dd7a30-8058-475a-a7a9-2f6318e7e9fc")
+			(uuid "93dd7a30-8058-475a-a7a9-2f6318e7e9fd")
 		)
 		(pin "3"
-			(uuid "10e99f08-84f2-404c-8304-faa64d15771c")
+			(uuid "10e99f08-84f2-404c-8304-faa64d15771d")
 		)
 		(pin "13"
-			(uuid "5fbb85fe-68b3-45f5-ba61-81d11c1bfc80")
+			(uuid "5fbb85fe-68b3-45f5-ba61-81d11c1bfc81")
 		)
 		(pin "12"
-			(uuid "566a6a7f-943e-4628-9ce1-93d737be4c47")
+			(uuid "566a6a7f-943e-4628-9ce1-93d737be4c48")
 		)
 		(pin "9"
-			(uuid "5e427402-917d-4547-8160-d6d092a6ab56")
+			(uuid "5e427402-917d-4547-8160-d6d092a6ab57")
 		)
 		(instances
 			(project ""
@@ -8593,46 +8593,46 @@
 			)
 		)
 		(pin "10"
-			(uuid "190f5e3b-c056-43b8-b161-cd5ae58b1e72")
+			(uuid "190f5e3b-c056-43b8-b161-cd5ae58b1e74")
 		)
 		(pin "7"
-			(uuid "01ce0edf-497d-40a0-b665-f747bd7fd3ec")
+			(uuid "01ce0edf-497d-40a0-b665-f747bd7fd3ee")
 		)
 		(pin "14"
-			(uuid "93dc1abb-2c8a-4d8c-ad28-f83ce23e37f1")
+			(uuid "93dc1abb-2c8a-4d8c-ad28-f83ce23e37f3")
 		)
 		(pin "6"
-			(uuid "f21e400e-0c64-41a1-a9c6-c88e28d91392")
+			(uuid "f21e400e-0c64-41a1-a9c6-c88e28d91394")
 		)
 		(pin "5"
-			(uuid "e934bd44-7f88-46ff-843a-585e6636c86c")
+			(uuid "e934bd44-7f88-46ff-843a-585e6636c86e")
 		)
 		(pin "1"
-			(uuid "9f5bd6aa-90ff-4dd9-bf1d-bdd4ebe4be94")
+			(uuid "9f5bd6aa-90ff-4dd9-bf1d-bdd4ebe4be96")
 		)
 		(pin "4"
-			(uuid "d5f8a83a-4773-41c6-b220-a7e1a6362e35")
+			(uuid "d5f8a83a-4773-41c6-b220-a7e1a6362e37")
 		)
 		(pin "2"
-			(uuid "a227a05b-db46-49fc-b358-d44817882354")
+			(uuid "a227a05b-db46-49fc-b358-d44817882356")
 		)
 		(pin "8"
-			(uuid "7c14e6b5-a5ba-446a-b7f9-3e939f6d54cc")
+			(uuid "7c14e6b5-a5ba-446a-b7f9-3e939f6d54ce")
 		)
 		(pin "11"
-			(uuid "93dd7a30-8058-475a-a7a9-2f6318e7e9fc")
+			(uuid "93dd7a30-8058-475a-a7a9-2f6318e7e9fe")
 		)
 		(pin "3"
-			(uuid "10e99f08-84f2-404c-8304-faa64d15771c")
+			(uuid "10e99f08-84f2-404c-8304-faa64d15771e")
 		)
 		(pin "13"
-			(uuid "5fbb85fe-68b3-45f5-ba61-81d11c1bfc80")
+			(uuid "5fbb85fe-68b3-45f5-ba61-81d11c1bfc82")
 		)
 		(pin "12"
-			(uuid "566a6a7f-943e-4628-9ce1-93d737be4c47")
+			(uuid "566a6a7f-943e-4628-9ce1-93d737be4c49")
 		)
 		(pin "9"
-			(uuid "5e427402-917d-4547-8160-d6d092a6ab56")
+			(uuid "5e427402-917d-4547-8160-d6d092a6ab58")
 		)
 		(instances
 			(project ""
@@ -9000,6 +9000,48 @@
 				(path "/8304b3b7-1ae3-4935-a8ef-a9ab1b0a3004"
 					(reference "C3")
 					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 55.88 105.41)
+		(size 33.02 25.4)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d52e23db-71ba-49ec-b03b-ab9ecdc3741b")
+		(property "Sheetname" "debounce"
+			(at 55.88 104.6984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "debounce.kicad_sch"
+			(at 55.88 131.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "garagelights"
+				(path "/8304b3b7-1ae3-4935-a8ef-a9ab1b0a3004"
+					(page "2")
 				)
 			)
 		)
