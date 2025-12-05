@@ -1378,7 +1378,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 120.65) (xy 215.9 123.19)
+			(xy 215.9 113.03) (xy 215.9 115.57)
 		)
 		(stroke
 			(width 0)
@@ -1398,7 +1398,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 35.56) (xy 170.18 39.37)
+			(xy 170.18 39.37) (xy 170.18 43.18)
 		)
 		(stroke
 			(width 0)
@@ -1418,7 +1418,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 67.31) (xy 162.56 67.31)
+			(xy 151.13 71.12) (xy 162.56 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1448,7 +1448,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 82.55) (xy 151.13 67.31)
+			(xy 151.13 82.55) (xy 151.13 71.12)
 		)
 		(stroke
 			(width 0)
@@ -1458,7 +1458,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 139.7) (xy 208.28 139.7)
+			(xy 151.13 132.08) (xy 208.28 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1488,7 +1488,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 134.62) (xy 215.9 130.81)
+			(xy 215.9 127) (xy 215.9 123.19)
 		)
 		(stroke
 			(width 0)
@@ -1498,7 +1498,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 120.65) (xy 151.13 139.7)
+			(xy 151.13 120.65) (xy 151.13 132.08)
 		)
 		(stroke
 			(width 0)
@@ -1558,7 +1558,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 57.15) (xy 170.18 62.23)
+			(xy 170.18 60.96) (xy 170.18 66.04)
 		)
 		(stroke
 			(width 0)
@@ -1638,7 +1638,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 46.99) (xy 170.18 49.53)
+			(xy 170.18 50.8) (xy 170.18 53.34)
 		)
 		(stroke
 			(width 0)
@@ -1648,7 +1648,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 109.22) (xy 215.9 113.03)
+			(xy 215.9 101.6) (xy 215.9 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1688,7 +1688,7 @@
 	)
 	(wire
 		(pts
-			(xy 215.9 147.32) (xy 215.9 144.78)
+			(xy 215.9 139.7) (xy 215.9 137.16)
 		)
 		(stroke
 			(width 0)
@@ -1708,7 +1708,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 76.2) (xy 170.18 72.39)
+			(xy 170.18 80.01) (xy 170.18 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1786,9 +1786,19 @@
 		)
 		(uuid "f2709bfb-c38c-4e3d-8b4e-95ae8be21bda")
 	)
+	(label "echo"
+		(at 101.6 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "74992154-d9c2-42d6-a113-36a4662fd8a5")
+	)
 	(symbol
 		(lib_id "power:GND")
-		(at 170.18 76.2 0)
+		(at 170.18 80.01 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1797,7 +1807,7 @@
 		(fields_autoplaced yes)
 		(uuid "10e81e06-02fc-4924-9724-0c5197a1a05d")
 		(property "Reference" "#PWR0105"
-			(at 170.18 82.55 0)
+			(at 170.18 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1806,7 +1816,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 170.18 81.28 0)
+			(at 170.18 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1814,7 +1824,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 76.2 0)
+			(at 170.18 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1823,7 +1833,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 76.2 0)
+			(at 170.18 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1832,7 +1842,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 170.18 76.2 0)
+			(at 170.18 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2208,7 +2218,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:Q_NMOS_GDS")
-		(at 213.36 139.7 0)
+		(at 213.36 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2217,7 +2227,7 @@
 		(fields_autoplaced yes)
 		(uuid "4016b134-82d6-4ef0-8c88-2f6786648878")
 		(property "Reference" "Q103"
-			(at 219.71 138.4299 0)
+			(at 219.71 130.8099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2226,7 +2236,7 @@
 			)
 		)
 		(property "Value" "ZVN4206AV"
-			(at 219.71 140.9699 0)
+			(at 219.71 133.3499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2235,7 +2245,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 218.44 137.16 0)
+			(at 218.44 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2244,7 +2254,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 213.36 139.7 0)
+			(at 213.36 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2253,7 +2263,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, gate/drain/source"
-			(at 213.36 139.7 0)
+			(at 213.36 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2281,7 +2291,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 215.9 127 90)
+		(at 215.9 119.38 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2290,7 +2300,7 @@
 		(fields_autoplaced yes)
 		(uuid "431919fc-8a8a-4bb4-a036-dc08a2c361b8")
 		(property "Reference" "D105"
-			(at 219.71 127.3174 90)
+			(at 219.71 119.6974 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2299,7 +2309,7 @@
 			)
 		)
 		(property "Value" "RED"
-			(at 219.71 129.8574 90)
+			(at 219.71 122.2374 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2308,7 +2318,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 127 0)
+			(at 215.9 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2317,7 +2327,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 215.9 127 0)
+			(at 215.9 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2326,7 +2336,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 215.9 127 0)
+			(at 215.9 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2351,7 +2361,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 215.9 116.84 0)
+		(at 215.9 109.22 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2360,7 +2370,7 @@
 		(fields_autoplaced yes)
 		(uuid "4f1059f6-effd-40d1-935d-19795e042892")
 		(property "Reference" "R104"
-			(at 218.44 115.5699 0)
+			(at 218.44 107.9499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2369,7 +2379,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 218.44 118.1099 0)
+			(at 218.44 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2378,7 +2388,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 216.916 117.094 90)
+			(at 216.916 109.474 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2387,7 +2397,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 215.9 116.84 0)
+			(at 215.9 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2396,7 +2406,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 215.9 116.84 0)
+			(at 215.9 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2491,7 +2501,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 215.9 109.22 0)
+		(at 215.9 101.6 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2500,7 +2510,7 @@
 		(fields_autoplaced yes)
 		(uuid "826c6dc3-d745-4756-97ab-397494fd0f72")
 		(property "Reference" "#PWR0108"
-			(at 215.9 113.03 0)
+			(at 215.9 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2509,7 +2519,7 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 215.9 104.14 0)
+			(at 215.9 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2517,7 +2527,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 109.22 0)
+			(at 215.9 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2526,7 +2536,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 109.22 0)
+			(at 215.9 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2535,7 +2545,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 215.9 109.22 0)
+			(at 215.9 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2557,7 +2567,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 170.18 43.18 0)
+		(at 170.18 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2566,7 +2576,7 @@
 		(fields_autoplaced yes)
 		(uuid "8e8006a7-74c2-426a-b98a-0fd0df3f6bda")
 		(property "Reference" "R101"
-			(at 172.72 41.9099 0)
+			(at 172.72 45.7199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2575,7 +2585,7 @@
 			)
 		)
 		(property "Value" "220"
-			(at 172.72 44.4499 0)
+			(at 172.72 48.2599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2584,7 +2594,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 171.196 43.434 90)
+			(at 171.196 47.244 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2593,7 +2603,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 43.18 0)
+			(at 170.18 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2602,7 +2612,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 170.18 43.18 0)
+			(at 170.18 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2766,7 +2776,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 215.9 147.32 0)
+		(at 215.9 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2775,7 +2785,7 @@
 		(fields_autoplaced yes)
 		(uuid "dce8cace-fd65-420c-8a88-6c7dca27660c")
 		(property "Reference" "#PWR0109"
-			(at 215.9 153.67 0)
+			(at 215.9 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2784,7 +2794,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 215.9 152.4 0)
+			(at 215.9 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2792,7 +2802,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 215.9 147.32 0)
+			(at 215.9 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2801,7 +2811,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 215.9 147.32 0)
+			(at 215.9 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2810,7 +2820,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 215.9 147.32 0)
+			(at 215.9 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2832,7 +2842,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:Q_NMOS_GDS")
-		(at 167.64 67.31 0)
+		(at 167.64 71.12 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2841,7 +2851,7 @@
 		(fields_autoplaced yes)
 		(uuid "de18e998-ff77-4d00-aee6-f24128025d5f")
 		(property "Reference" "Q101"
-			(at 173.99 66.0399 0)
+			(at 173.99 69.8499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2850,7 +2860,7 @@
 			)
 		)
 		(property "Value" "ZVN4206AV"
-			(at 173.99 68.5799 0)
+			(at 173.99 72.3899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2859,7 +2869,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 64.77 0)
+			(at 172.72 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2868,7 +2878,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 167.64 67.31 0)
+			(at 167.64 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2877,7 +2887,7 @@
 			)
 		)
 		(property "Description" "N-MOSFET transistor, gate/drain/source"
-			(at 167.64 67.31 0)
+			(at 167.64 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2905,7 +2915,7 @@
 	)
 	(symbol
 		(lib_id "power:VDD")
-		(at 170.18 35.56 0)
+		(at 170.18 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2914,7 +2924,7 @@
 		(fields_autoplaced yes)
 		(uuid "dfa87121-adef-474d-b4f2-ad294add3c6c")
 		(property "Reference" "#PWR0101"
-			(at 170.18 39.37 0)
+			(at 170.18 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2923,7 +2933,7 @@
 			)
 		)
 		(property "Value" "VDD"
-			(at 170.18 30.48 0)
+			(at 170.18 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2931,7 +2941,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 35.56 0)
+			(at 170.18 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2940,7 +2950,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 170.18 35.56 0)
+			(at 170.18 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2949,7 +2959,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VDD\""
-			(at 170.18 35.56 0)
+			(at 170.18 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3183,7 +3193,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 170.18 53.34 90)
+		(at 170.18 57.15 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3192,7 +3202,7 @@
 		(fields_autoplaced yes)
 		(uuid "eb5c7f12-4a6c-4487-b829-94ce4d3ca819")
 		(property "Reference" "D101"
-			(at 173.99 53.6574 90)
+			(at 173.99 57.4674 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3201,7 +3211,7 @@
 			)
 		)
 		(property "Value" "GREEN"
-			(at 173.99 56.1974 90)
+			(at 173.99 60.0074 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3210,7 +3220,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 170.18 53.34 0)
+			(at 170.18 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3219,7 +3229,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 170.18 53.34 0)
+			(at 170.18 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3228,7 +3238,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode"
-			(at 170.18 53.34 0)
+			(at 170.18 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
