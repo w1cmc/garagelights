@@ -376,6 +376,143 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:Screw_Terminal_01x01"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Screw_Terminal_01x01"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "screw terminal"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TerminalBlock*:*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Screw_Terminal_01x01_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.5334 0.3302) (xy 0.3302 -0.508)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.3556 0.508) (xy 0.508 -0.3302)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.635)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
 				(offset 1.016)
@@ -3001,6 +3138,107 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:VDD"
 			(power)
 			(pin_numbers
@@ -3250,6 +3488,12 @@
 		(uuid "5e3c77ae-7f83-40ca-9a62-2f29357a650f")
 	)
 	(junction
+		(at 80.01 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "620e5d5b-7653-4cb0-8331-34424c9d57cb")
+	)
+	(junction
 		(at 50.8 190.5)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3272,6 +3516,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "77f48356-f585-446f-8ce2-55a0b0161451")
+	)
+	(junction
+		(at 44.45 125.73)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7982f8a6-ac0a-4e1c-8784-a2e2b9bd4f6f")
 	)
 	(junction
 		(at 168.91 77.47)
@@ -3316,12 +3566,6 @@
 		(uuid "c5d682d6-1f43-4131-ace0-d40bcac3f88f")
 	)
 	(junction
-		(at 52.07 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c6c0508a-128d-4710-acd0-40b7e34d3e1f")
-	)
-	(junction
 		(at 74.93 24.13)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3332,6 +3576,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d428e9e8-e743-4215-b774-a7bfdb1c2e84")
+	)
+	(junction
+		(at 52.07 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e1542fcd-9ccf-4aa0-a2be-bc8d86632c67")
 	)
 	(junction
 		(at 52.07 125.73)
@@ -3647,7 +3897,7 @@
 	)
 	(wire
 		(pts
-			(xy 52.07 139.7) (xy 52.07 143.51)
+			(xy 80.01 139.7) (xy 80.01 143.51)
 		)
 		(stroke
 			(width 0)
@@ -3957,7 +4207,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 125.73) (xy 52.07 125.73)
+			(xy 43.18 125.73) (xy 44.45 125.73)
 		)
 		(stroke
 			(width 0)
@@ -4827,6 +5077,16 @@
 	)
 	(wire
 		(pts
+			(xy 44.45 125.73) (xy 52.07 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d371d112-faae-4ea8-b86a-00355df17b53")
+	)
+	(wire
+		(pts
 			(xy 81.28 24.13) (xy 74.93 24.13)
 		)
 		(stroke
@@ -4957,6 +5217,16 @@
 	)
 	(wire
 		(pts
+			(xy 43.18 139.7) (xy 52.07 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e974f533-c86a-48ae-91b3-b647322d8643")
+	)
+	(wire
+		(pts
 			(xy 50.8 165.1) (xy 50.8 167.64)
 		)
 		(stroke
@@ -5055,27 +5325,15 @@
 		)
 		(uuid "fe2dc69d-6c69-46c1-9cee-2cdb1a748d50")
 	)
-	(global_label "+12V"
-		(shape input)
-		(at 43.18 125.73 180)
-		(fields_autoplaced yes)
+	(label "+12V"
+		(at 48.26 125.73 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left bottom)
 		)
-		(uuid "1306e159-ed9a-41d6-892b-56e98000f743")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 35.1148 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
+		(uuid "a0717f2b-bc19-49d3-aaba-571f99a66af6")
 	)
 	(global_label "+5V"
 		(shape output)
@@ -5252,7 +5510,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "0.1"
+		(property "Value" "1 uF"
 			(at 172.72 97.7899 0)
 			(effects
 				(font
@@ -5830,6 +6088,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 44.45 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "239bad33-62be-4b48-bc7b-7c876727644b")
+		(property "Reference" "#FLG01"
+			(at 44.45 123.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 44.45 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 44.45 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d22085e2-1775-4e39-879e-00993b7e4b69")
+		)
+		(instances
+			(project ""
+				(path "/8304b3b7-1ae3-4935-a8ef-a9ab1b0a3004"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 245.11 58.42 0)
 		(unit 1)
@@ -5897,6 +6221,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Screw_Terminal_01x01")
+		(at 38.1 125.73 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "320bb9a1-e087-4a2c-bae4-f083b8bf7328")
+		(property "Reference" "J3"
+			(at 35.56 125.095 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x01"
+			(at 35.56 127.635 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Library:KEYSTONE_8191"
+			(at 38.1 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 38.1 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "14e0d77c-c53b-43cf-a390-087aa8d87df9")
+		)
+		(instances
+			(project "garagelights"
+				(path "/8304b3b7-1ae3-4935-a8ef-a9ab1b0a3004"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+5V")
 		(at 128.27 27.94 0)
 		(unit 1)
@@ -5957,6 +6349,74 @@
 			(project ""
 				(path "/8304b3b7-1ae3-4935-a8ef-a9ab1b0a3004"
 					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Screw_Terminal_01x01")
+		(at 38.1 139.7 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "3c1708f4-a5c0-4b9e-9846-10830c0cef43")
+		(property "Reference" "J4"
+			(at 35.56 139.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Screw_Terminal_01x01"
+			(at 35.56 141.605 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "Library:KEYSTONE_8191"
+			(at 38.1 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 38.1 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "834a81a8-48fa-471e-9e07-fdfd595583c4")
+		)
+		(instances
+			(project "garagelights"
+				(path "/8304b3b7-1ae3-4935-a8ef-a9ab1b0a3004"
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -6112,7 +6572,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "464c85d4-274f-4120-b1aa-a762c0f5c80c")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR022"
 			(at 186.69 97.79 0)
 			(effects
 				(font
@@ -6163,7 +6623,7 @@
 		(instances
 			(project "garagelights"
 				(path "/8304b3b7-1ae3-4935-a8ef-a9ab1b0a3004"
-					(reference "#PWR023")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -6810,7 +7270,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7b340704-e39b-42af-b6ac-8bdc47e8b85b")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR031"
 			(at 168.91 166.37 0)
 			(effects
 				(font
@@ -6861,7 +7321,7 @@
 		(instances
 			(project "garagelights"
 				(path "/8304b3b7-1ae3-4935-a8ef-a9ab1b0a3004"
-					(reference "#PWR032")
+					(reference "#PWR031")
 					(unit 1)
 				)
 			)
@@ -7093,7 +7553,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 52.07 143.51 0)
+		(at 80.01 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7101,8 +7561,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "83d73793-ab31-45d4-b218-3e93546c7281")
-		(property "Reference" "#PWR028"
-			(at 52.07 149.86 0)
+		(property "Reference" "#PWR029"
+			(at 80.01 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7111,7 +7571,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 52.07 148.59 0)
+			(at 80.01 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7120,7 +7580,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 52.07 143.51 0)
+			(at 80.01 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7129,7 +7589,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 52.07 143.51 0)
+			(at 80.01 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7138,7 +7598,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 52.07 143.51 0)
+			(at 80.01 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7152,7 +7612,7 @@
 		(instances
 			(project "garagelights"
 				(path "/8304b3b7-1ae3-4935-a8ef-a9ab1b0a3004"
-					(reference "#PWR028")
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -7676,7 +8136,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e6b9be7-706a-4e6d-8fe8-4fe9edb61eaa")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR030"
 			(at 186.69 154.94 0)
 			(effects
 				(font
@@ -7727,7 +8187,7 @@
 		(instances
 			(project "garagelights"
 				(path "/8304b3b7-1ae3-4935-a8ef-a9ab1b0a3004"
-					(reference "#PWR033")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -8183,7 +8643,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b3812c46-2f8b-4207-b018-9a886b41a39f")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR033"
 			(at 90.17 166.37 0)
 			(effects
 				(font
@@ -8233,7 +8693,7 @@
 		(instances
 			(project "garagelights"
 				(path "/8304b3b7-1ae3-4935-a8ef-a9ab1b0a3004"
-					(reference "#PWR031")
+					(reference "#PWR033")
 					(unit 1)
 				)
 			)
@@ -8789,7 +9249,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cf098c1a-dc60-4e25-9922-002758f9380f")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR023"
 			(at 168.91 109.22 0)
 			(effects
 				(font
@@ -8840,7 +9300,7 @@
 		(instances
 			(project "garagelights"
 				(path "/8304b3b7-1ae3-4935-a8ef-a9ab1b0a3004"
-					(reference "#PWR022")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -9065,7 +9525,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dce8cace-fd65-420c-8a88-6c7dca27660c")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR028"
 			(at 242.57 144.78 0)
 			(effects
 				(font
@@ -9116,7 +9576,7 @@
 		(instances
 			(project ""
 				(path "/8304b3b7-1ae3-4935-a8ef-a9ab1b0a3004"
-					(reference "#PWR029")
+					(reference "#PWR028")
 					(unit 1)
 				)
 			)
@@ -9990,7 +10450,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f3e9b24c-40c3-4e78-86e9-f0be976f94b6")
-		(property "Reference" "#PWR030"
+		(property "Reference" "#PWR032"
 			(at 50.8 166.37 0)
 			(effects
 				(font
@@ -10040,7 +10500,7 @@
 		(instances
 			(project ""
 				(path "/8304b3b7-1ae3-4935-a8ef-a9ab1b0a3004"
-					(reference "#PWR030")
+					(reference "#PWR032")
 					(unit 1)
 				)
 			)

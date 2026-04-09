@@ -1,0 +1,221 @@
+(footprint "KEYSTONE_8191"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.01 -6.815 0)
+		(layer "F.SilkS")
+		(uuid "7ed9d31c-63cb-4c17-bbbd-3c0274cc97b7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "KEYSTONE_8191"
+		(at 4.07 6.815 0)
+		(layer "F.Fab")
+		(uuid "a6e7b16f-acf8-41be-81a1-59b30d5a49d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bd822207-db1b-4cb0-b2ce-1851a90f0770")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "bbf0f74e-b33e-4734-bff8-1ca5c3a12eb7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.935 -1.76)
+		(end -3.935 1.76)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a041dd9d-5173-4ff0-aba3-b787c95ed777")
+	)
+	(fp_line
+		(start -0.755 -3.935)
+		(end 0.755 -3.935)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f66435e2-16f4-422c-9272-a4e663c24a5e")
+	)
+	(fp_line
+		(start -0.755 3.935)
+		(end 0.755 3.935)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3faeb41e-4309-4462-98d6-bfd3d5fdeaea")
+	)
+	(fp_line
+		(start 3.935 -1.76)
+		(end 3.935 1.76)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "80f22eba-1445-45c9-9de1-9bc8935c3e56")
+	)
+	(fp_line
+		(start -4.185 -5.18)
+		(end -4.185 5.18)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "1b2a3a62-bb52-4179-8bb1-37777748ed31")
+	)
+	(fp_line
+		(start -4.185 5.18)
+		(end 4.185 5.18)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3b9cef55-c555-4db3-b86a-b67f72114e28")
+	)
+	(fp_line
+		(start 4.185 -5.18)
+		(end -4.185 -5.18)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "cdf2001c-98a3-4b25-9ca8-9be1f4fca736")
+	)
+	(fp_line
+		(start 4.185 5.18)
+		(end 4.185 -5.18)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "10f8315a-223f-4c80-ac0b-8202a50cc225")
+	)
+	(fp_line
+		(start -3.935 -3.935)
+		(end -3.935 3.935)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "6cd2c6be-5056-446f-a43c-832007815bda")
+	)
+	(fp_line
+		(start -3.935 3.935)
+		(end 3.935 3.935)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "215b16af-c70a-4b98-8216-338d8c5a4622")
+	)
+	(fp_line
+		(start 3.935 -3.935)
+		(end -3.935 -3.935)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "796304f9-f2a3-4034-acd3-8a875e8d5700")
+	)
+	(fp_line
+		(start 3.935 3.935)
+		(end 3.935 -3.935)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "96d80bf5-1952-4058-82db-04e84995a8cd")
+	)
+	(pad "1" thru_hole circle
+		(at -2.5 -3.505)
+		(size 2.85 2.85)
+		(drill 1.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "82c9c709-e124-4d2c-a9e0-e79cc35dee84")
+	)
+	(pad "1" thru_hole circle
+		(at -2.5 3.505)
+		(size 2.85 2.85)
+		(drill 1.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "4a9bf13f-affe-473f-87cc-5f8062368e8a")
+	)
+	(pad "1" thru_hole circle
+		(at 2.5 -3.505)
+		(size 2.85 2.85)
+		(drill 1.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "8db9455c-bee4-4ebb-8479-74d58cd3b46c")
+	)
+	(pad "1" thru_hole circle
+		(at 2.5 3.505)
+		(size 2.85 2.85)
+		(drill 1.9)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "bf2f9041-6d3d-4f4c-806c-99ae3a71765a")
+	)
+	(embedded_fonts no)
+	(model "C:/Users/coldw/OneDrive/repos/mirandalights/models/Keystone 8191/8191.step"
+		(offset
+			(xyz 0.2 -2 2.5)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 -0 -90)
+		)
+	)
+)
