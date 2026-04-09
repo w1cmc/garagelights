@@ -2077,7 +2077,7 @@
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "e3efe922-571d-49da-b8a8-97c5e0479800")
+			(uuid "fbdfef8c-fcf5-4619-8982-ed222076e44e")
 		)
 		(pad "1" thru_hole circle
 			(at 2.5 -3.505)
@@ -2089,7 +2089,7 @@
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "e3efe922-571d-49da-b8a8-97c5e0479800")
+			(uuid "668f0d73-38a1-4c25-8d14-db2d134e6213")
 		)
 		(pad "1" thru_hole circle
 			(at 2.5 3.505)
@@ -2101,7 +2101,7 @@
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "e3efe922-571d-49da-b8a8-97c5e0479800")
+			(uuid "4b065a3a-24b2-4d69-9d2e-24c8001f45c9")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/mechanical/8191.step"
@@ -3319,7 +3319,7 @@
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "848c20c2-d9ef-42a6-b95e-3f2348a89037")
+			(uuid "139babe7-11e3-45f5-96ba-907914bafa2b")
 		)
 		(pad "1" thru_hole circle
 			(at 2.5 -3.505)
@@ -3331,7 +3331,7 @@
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "848c20c2-d9ef-42a6-b95e-3f2348a89037")
+			(uuid "e30c0016-74b0-4462-b003-78ae028fd397")
 		)
 		(pad "1" thru_hole circle
 			(at 2.5 3.505)
@@ -3343,7 +3343,7 @@
 			(pinfunction "Pin_1")
 			(pintype "passive")
 			(solder_mask_margin 0.102)
-			(uuid "848c20c2-d9ef-42a6-b95e-3f2348a89037")
+			(uuid "1304d5e4-5793-4123-8437-840c10436eb8")
 		)
 		(embedded_fonts no)
 		(model "${KIPRJMOD}/mechanical/8191.step"
