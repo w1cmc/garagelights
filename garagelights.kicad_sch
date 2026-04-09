@@ -2500,7 +2500,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:Q_NMOS_GDS"
+		(symbol "Transistor_FET_Other:Q_NMOS_Depletion_DGS"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -2517,7 +2517,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "Q_NMOS_GDS"
+			(property "Value" "Q_NMOS_Depletion_DGS"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -2527,7 +2527,7 @@
 				)
 			)
 			(property "Footprint" ""
-				(at 5.08 2.54 0)
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -2544,7 +2544,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "N-MOSFET transistor, gate/drain/source"
+			(property "Description" "Depletion-mode N-channel MOSFET, drain/gate/source"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2553,7 +2553,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
+			(property "ki_keywords" "NMOS"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2562,7 +2562,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "Q_NMOS_GDS_0_1"
+			(symbol "Q_NMOS_Depletion_DGS_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -2589,31 +2589,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.762 2.286) (xy 0.762 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 0.508) (xy 0.762 -0.508)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.27) (xy 0.762 -2.286)
+						(xy 0.762 2.286) (xy 0.762 -2.286)
 					)
 					(stroke
 						(width 0.254)
@@ -2706,7 +2682,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.921 0.381) (xy 3.683 0.381)
+						(xy 2.794 0.508) (xy 2.921 0.381) (xy 3.683 0.381) (xy 3.81 0.254)
 					)
 					(stroke
 						(width 0)
@@ -2729,7 +2705,7 @@
 					)
 				)
 			)
-			(symbol "Q_NMOS_GDS_1_1"
+			(symbol "Q_NMOS_Depletion_DGS_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -2740,7 +2716,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2758,7 +2734,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3446,6 +3422,12 @@
 		(uuid "ca5cfdff-aa71-4da8-b304-f784c3904919")
 	)
 	(junction
+		(at 99.06 30.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "16f462d3-811f-4edc-b682-44812df42ca3")
+	)
+	(junction
 		(at 213.36 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3480,6 +3462,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ec157ac-2028-4630-921d-edcdfc258f62")
+	)
+	(junction
+		(at 43.18 29.21)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54c9d546-03d3-46e5-af22-df758b7e7e76")
 	)
 	(junction
 		(at 168.91 147.32)
@@ -4107,6 +4095,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 33.02) (xy 90.17 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40c7fe60-dca8-4a15-a155-76979c5ea341")
+	)
+	(wire
+		(pts
 			(xy 195.58 104.14) (xy 200.66 104.14)
 		)
 		(stroke
@@ -4164,6 +4162,16 @@
 			(type default)
 		)
 		(uuid "4abd8a1f-1185-453a-ab39-c25408fe1cbd")
+	)
+	(wire
+		(pts
+			(xy 43.18 29.21) (xy 43.18 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b23c5c8-1ac3-4347-b73c-b70510fe6486")
 	)
 	(wire
 		(pts
@@ -4467,6 +4475,16 @@
 	)
 	(wire
 		(pts
+			(xy 99.06 30.48) (xy 99.06 48.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b53389c-329e-41db-851c-de0c3c5d799e")
+	)
+	(wire
+		(pts
 			(xy 195.58 109.22) (xy 200.66 109.22)
 		)
 		(stroke
@@ -4504,6 +4522,16 @@
 			(type default)
 		)
 		(uuid "826b9c00-5d5d-402d-8c36-80963eeec09e")
+	)
+	(wire
+		(pts
+			(xy 34.29 31.75) (xy 34.29 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "828922ff-bf31-4515-8e55-2e01628f8448")
 	)
 	(wire
 		(pts
@@ -4667,7 +4695,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 45.72) (xy 99.06 48.26)
+			(xy 99.06 25.4) (xy 99.06 30.48)
 		)
 		(stroke
 			(width 0)
@@ -4694,6 +4722,16 @@
 			(type default)
 		)
 		(uuid "992c2d20-cd62-4b12-a02e-b5700f93338c")
+	)
+	(wire
+		(pts
+			(xy 34.29 43.18) (xy 34.29 39.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ae231b6-06c4-4081-83fb-4c19d7ba8714")
 	)
 	(wire
 		(pts
@@ -4877,6 +4915,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 40.64) (xy 90.17 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2d0499f-5a18-479f-8ee8-3408c27bd916")
+	)
+	(wire
+		(pts
 			(xy 168.91 102.87) (xy 168.91 100.33)
 		)
 		(stroke
@@ -4957,7 +5005,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 45.72) (xy 43.18 48.26)
+			(xy 43.18 26.67) (xy 43.18 29.21)
 		)
 		(stroke
 			(width 0)
@@ -5057,6 +5105,16 @@
 	)
 	(wire
 		(pts
+			(xy 90.17 30.48) (xy 99.06 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c98e5295-8757-4c8c-80a9-1791ef0cd7d5")
+	)
+	(wire
+		(pts
 			(xy 124.46 52.07) (xy 173.99 52.07)
 		)
 		(stroke
@@ -5064,6 +5122,16 @@
 			(type default)
 		)
 		(uuid "cd2b9c28-e79f-4960-8d47-6ac97f5eba03")
+	)
+	(wire
+		(pts
+			(xy 34.29 29.21) (xy 43.18 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d11f42dc-02cc-413a-982e-6b5aa6d0fc7a")
 	)
 	(wire
 		(pts
@@ -6490,7 +6558,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Q_NMOS_GDS")
+		(lib_id "Transistor_FET_Other:Q_NMOS_Depletion_DGS")
 		(at 240.03 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6518,15 +6586,6 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92S"
-			(at 245.11 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ZVN4206AV.pdf"
 			(at 240.03 130.81 0)
 			(effects
 				(font
@@ -6535,7 +6594,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, gate/drain/source"
+		(property "Datasheet" "~"
+			(at 240.03 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Depletion-mode N-channel MOSFET, drain/gate/source"
 			(at 240.03 130.81 0)
 			(effects
 				(font
@@ -6694,6 +6762,143 @@
 			(project ""
 				(path "/8304b3b7-1ae3-4935-a8ef-a9ab1b0a3004"
 					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 90.17 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "508f0781-c077-440f-ac28-719281eda865")
+		(property "Reference" "C12"
+			(at 93.98 35.5599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1"
+			(at 93.98 38.0999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+			(at 91.1352 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1049_GOLDMAX_C0G"
+			(at 90.17 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 90.17 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4733625b-49f9-4c80-a9f2-0b0522e0cd7d")
+		)
+		(pin "2"
+			(uuid "3a717346-9257-4192-b5ca-76b2422b85b3")
+		)
+		(instances
+			(project "garagelights"
+				(path "/8304b3b7-1ae3-4935-a8ef-a9ab1b0a3004"
+					(reference "C12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 90.17 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "51292a41-64ef-4909-b563-d90ed214909c")
+		(property "Reference" "#PWR037"
+			(at 90.17 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 90.17 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 90.17 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 90.17 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 90.17 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "da9e660e-4d75-46b8-8166-72a2706c433e")
+		)
+		(instances
+			(project "garagelights"
+				(path "/8304b3b7-1ae3-4935-a8ef-a9ab1b0a3004"
+					(reference "#PWR037")
 					(unit 1)
 				)
 			)
@@ -6905,6 +7110,73 @@
 			(project "garagelights"
 				(path "/8304b3b7-1ae3-4935-a8ef-a9ab1b0a3004"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 34.29 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5873c097-a4a7-4dc0-af94-7a53810a183f")
+		(property "Reference" "#PWR036"
+			(at 34.29 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 34.29 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 34.29 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 34.29 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 34.29 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "57b4b21b-4709-4ea2-9fd2-130975fd835e")
+		)
+		(instances
+			(project ""
+				(path "/8304b3b7-1ae3-4935-a8ef-a9ab1b0a3004"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -7839,6 +8111,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 34.29 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90fe4496-328f-4d16-8221-e5116f32acda")
+		(property "Reference" "C11"
+			(at 38.1 34.2899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1"
+			(at 38.1 36.8299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm"
+			(at 35.2552 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://yageogroup.com/content/datasheet/asset/file/KEM_C1049_GOLDMAX_C0G"
+			(at 34.29 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 34.29 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2193487a-f716-4784-bcd9-98df68bd7327")
+		)
+		(pin "2"
+			(uuid "0f607be8-fbc0-457e-845a-d34eb8d424fc")
+		)
+		(instances
+			(project "garagelights"
+				(path "/8304b3b7-1ae3-4935-a8ef-a9ab1b0a3004"
+					(reference "C11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 182.88 119.38 0)
 		(unit 1)
@@ -8062,7 +8404,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 43.18 45.72 0)
+		(at 43.18 26.67 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8071,7 +8413,7 @@
 		(fields_autoplaced yes)
 		(uuid "95f115a3-a6fd-4a73-bcb3-d23df3fd5e81")
 		(property "Reference" "#PWR06"
-			(at 43.18 49.53 0)
+			(at 43.18 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8080,7 +8422,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 43.18 40.64 0)
+			(at 43.18 21.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8088,7 +8430,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 43.18 45.72 0)
+			(at 43.18 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8097,7 +8439,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 43.18 45.72 0)
+			(at 43.18 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8106,7 +8448,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 43.18 45.72 0)
+			(at 43.18 26.67 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8503,7 +8845,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 99.06 45.72 0)
+		(at 99.06 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8512,7 +8854,7 @@
 		(fields_autoplaced yes)
 		(uuid "a8b0ffed-28f2-443c-8116-ba50e32868eb")
 		(property "Reference" "#PWR08"
-			(at 99.06 49.53 0)
+			(at 99.06 29.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8521,7 +8863,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 99.06 40.64 0)
+			(at 99.06 20.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8529,7 +8871,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 45.72 0)
+			(at 99.06 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8538,7 +8880,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 45.72 0)
+			(at 99.06 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8547,7 +8889,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 99.06 45.72 0)
+			(at 99.06 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9035,7 +9377,7 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:Q_NMOS_GDS")
+		(lib_id "Transistor_FET_Other:Q_NMOS_Depletion_DGS")
 		(at 222.25 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9063,15 +9405,6 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92S"
-			(at 227.33 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ZVN4206AV.pdf"
 			(at 222.25 106.68 0)
 			(effects
 				(font
@@ -9080,7 +9413,16 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "N-MOSFET transistor, gate/drain/source"
+		(property "Datasheet" "~"
+			(at 222.25 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Depletion-mode N-channel MOSFET, drain/gate/source"
 			(at 222.25 106.68 0)
 			(effects
 				(font

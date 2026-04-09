@@ -207,9 +207,9 @@
 		(uuid "bf2f9041-6d3d-4f4c-806c-99ae3a71765a")
 	)
 	(embedded_fonts no)
-	(model "C:/Users/coldw/OneDrive/repos/mirandalights/models/Keystone 8191/8191.step"
+	(model "${KIPRJMOD}/mechanical/8191.step"
 		(offset
-			(xyz 0.2 -2 2.5)
+			(xyz 0.25 -2 2)
 		)
 		(scale
 			(xyz 1 1 1)
