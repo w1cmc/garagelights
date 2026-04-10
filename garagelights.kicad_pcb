@@ -8628,7 +8628,7 @@
 			(justify left bottom)
 		)
 	)
-	(gr_text "PING"
+	(gr_text "TRIG"
 		(at 165.735 88.9 90)
 		(layer "F.SilkS")
 		(uuid "f61abfa2-e441-49b0-a988-6e7db57e97b7")
@@ -8784,7 +8784,7 @@
 			(justify left bottom mirror)
 		)
 	)
-	(gr_text "PING"
+	(gr_text "TRIG"
 		(at 164.465 88.9 270)
 		(layer "B.SilkS")
 		(uuid "f9d78847-481b-45ab-9b47-bccca42c3baf")
