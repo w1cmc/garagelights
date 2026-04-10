@@ -4,6 +4,11 @@
 	(generator_version "9.0")
 	(uuid "8304b3b7-1ae3-4935-a8ef-a9ab1b0a3004")
 	(paper "USLetter")
+	(title_block
+		(title "Garage Lights")
+		(rev "A")
+		(comment 4 "Firmware-free ultrasonic range finder")
+	)
 	(lib_symbols
 		(symbol "4xxx:4013"
 			(pin_names
@@ -723,25 +728,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "J2"
-				(at 2.54 0.0001 0)
+			(property "Reference" "J"
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Value" "Samtec SSW-106-01-L-S"
-				(at 6.604 -14.478 90)
+			(property "Value" "Conn_01x06"
+				(at 0 -10.16 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
 				)
 			)
-			(property "Footprint" "Library:SAMTEC_SSW-106-01-X-S"
+			(property "Footprint" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -874,7 +877,7 @@
 							)
 						)
 					)
-					(number "01"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -892,7 +895,7 @@
 							)
 						)
 					)
-					(number "02"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -910,7 +913,7 @@
 							)
 						)
 					)
-					(number "03"
+					(number "3"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -928,7 +931,7 @@
 							)
 						)
 					)
-					(number "04"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -946,7 +949,7 @@
 							)
 						)
 					)
-					(number "05"
+					(number "5"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -964,7 +967,7 @@
 							)
 						)
 					)
-					(number "06"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3428,13 +3431,14 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "HC-SR04 ultrasonic range finder"
+	(text "Adafruit #3492:\nHC-SR04 ultrasonic range finder"
 		(exclude_from_sim no)
-		(at 148.336 24.892 0)
+		(at 134.366 24.13 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "02a3a04a-427b-4dbc-a823-5f4e660362ab")
 	)
@@ -3478,13 +3482,14 @@
 		)
 		(uuid "59ad0889-8800-42a8-89cd-305a40b7e317")
 	)
-	(text "Adafruit #2993: Tower Light - \nRed Yellow Green Alert Light with Buzzer - 12VDC"
+	(text "Adafruit #2993: Tower Light - \nRed Yellow Green Alert Light\nwith Buzzer - 12VDC"
 		(exclude_from_sim no)
-		(at 240.792 25.4 0)
+		(at 236.22 26.416 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
+			(justify left)
 		)
 		(uuid "76927837-83e5-4393-9dc2-ff6e7622a88c")
 	)
@@ -3555,7 +3560,7 @@
 		(uuid "16f462d3-811f-4edc-b682-44812df42ca3")
 	)
 	(junction
-		(at 213.36 104.14)
+		(at 213.36 96.52)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "18cdde53-c5cf-48d7-81cc-613090a3f6f2")
@@ -3705,7 +3710,7 @@
 		(uuid "e5582983-df71-4a2d-9e4e-2d229b578a35")
 	)
 	(junction
-		(at 213.36 106.68)
+		(at 213.36 99.06)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f032ac96-c27b-4816-ae6e-a9edb4b0385c")
@@ -3832,7 +3837,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 106.68) (xy 217.17 106.68)
+			(xy 213.36 99.06) (xy 217.17 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3902,7 +3907,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 106.68) (xy 213.36 109.22)
+			(xy 213.36 99.06) (xy 213.36 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4002,7 +4007,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 73.66) (xy 195.58 104.14)
+			(xy 195.58 73.66) (xy 195.58 96.52)
 		)
 		(stroke
 			(width 0)
@@ -4052,7 +4057,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 111.76) (xy 224.79 114.3)
+			(xy 224.79 104.14) (xy 224.79 106.68)
 		)
 		(stroke
 			(width 0)
@@ -4232,7 +4237,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 104.14) (xy 200.66 104.14)
+			(xy 195.58 96.52) (xy 200.66 96.52)
 		)
 		(stroke
 			(width 0)
@@ -4362,7 +4367,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 104.14) (xy 213.36 106.68)
+			(xy 213.36 96.52) (xy 213.36 99.06)
 		)
 		(stroke
 			(width 0)
@@ -4382,7 +4387,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 109.22) (xy 213.36 109.22)
+			(xy 208.28 101.6) (xy 213.36 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4502,7 +4507,7 @@
 	)
 	(wire
 		(pts
-			(xy 224.79 49.53) (xy 224.79 101.6)
+			(xy 224.79 49.53) (xy 224.79 93.98)
 		)
 		(stroke
 			(width 0)
@@ -4612,7 +4617,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 109.22) (xy 200.66 109.22)
+			(xy 195.58 101.6) (xy 200.66 101.6)
 		)
 		(stroke
 			(width 0)
@@ -4672,7 +4677,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 88.9) (xy 213.36 92.71)
+			(xy 213.36 81.28) (xy 213.36 85.09)
 		)
 		(stroke
 			(width 0)
@@ -4832,7 +4837,7 @@
 	)
 	(wire
 		(pts
-			(xy 208.28 104.14) (xy 213.36 104.14)
+			(xy 208.28 96.52) (xy 213.36 96.52)
 		)
 		(stroke
 			(width 0)
@@ -5162,7 +5167,7 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 125.73) (xy 195.58 109.22)
+			(xy 195.58 125.73) (xy 195.58 101.6)
 		)
 		(stroke
 			(width 0)
@@ -5442,7 +5447,7 @@
 	)
 	(wire
 		(pts
-			(xy 213.36 100.33) (xy 213.36 104.14)
+			(xy 213.36 92.71) (xy 213.36 96.52)
 		)
 		(stroke
 			(width 0)
@@ -5955,7 +5960,7 @@
 	)
 	(symbol
 		(lib_id "power:+5V")
-		(at 213.36 88.9 0)
+		(at 213.36 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5963,7 +5968,7 @@
 		(dnp no)
 		(uuid "18ae3560-748d-461e-9ce5-8654fe3460c9")
 		(property "Reference" "#PWR020"
-			(at 213.36 92.71 0)
+			(at 213.36 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5972,7 +5977,7 @@
 			)
 		)
 		(property "Value" "+5V"
-			(at 216.408 87.122 0)
+			(at 216.408 79.502 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5980,7 +5985,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 213.36 88.9 0)
+			(at 213.36 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5989,7 +5994,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 88.9 0)
+			(at 213.36 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5998,7 +6003,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 213.36 88.9 0)
+			(at 213.36 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6020,7 +6025,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N914")
-		(at 204.47 109.22 0)
+		(at 204.47 101.6 0)
 		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
@@ -6029,7 +6034,7 @@
 		(dnp no)
 		(uuid "1910bd7a-921f-4ac9-999f-f55efbb0f6b5")
 		(property "Reference" "D3"
-			(at 204.47 115.57 0)
+			(at 204.47 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6037,7 +6042,7 @@
 			)
 		)
 		(property "Value" "1N914"
-			(at 204.47 113.03 0)
+			(at 204.47 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6045,7 +6050,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 204.47 104.775 0)
+			(at 204.47 97.155 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6054,7 +6059,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/85622/1n914.pdf"
-			(at 204.47 109.22 0)
+			(at 204.47 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6063,7 +6068,7 @@
 			)
 		)
 		(property "Description" "100V 0.3A Small Signal Fast Switching Diode, DO-35"
-			(at 204.47 109.22 0)
+			(at 204.47 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6072,7 +6077,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 204.47 109.22 0)
+			(at 204.47 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6081,7 +6086,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 204.47 109.22 0)
+			(at 204.47 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9697,7 +9702,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET_Other:Q_NMOS_Depletion_DGS")
-		(at 222.25 106.68 0)
+		(at 222.25 99.06 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9706,7 +9711,7 @@
 		(fields_autoplaced yes)
 		(uuid "c178ce9c-d0ab-409c-a4c8-ae14c67a6a40")
 		(property "Reference" "Q2"
-			(at 228.6 105.4099 0)
+			(at 228.6 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9715,7 +9720,7 @@
 			)
 		)
 		(property "Value" "ZVN4206AV"
-			(at 228.6 107.9499 0)
+			(at 228.6 100.3299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9724,7 +9729,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_THT:TO-92S"
-			(at 222.25 106.68 0)
+			(at 222.25 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9733,7 +9738,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 222.25 106.68 0)
+			(at 222.25 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9742,7 +9747,7 @@
 			)
 		)
 		(property "Description" "Depletion-mode N-channel MOSFET, drain/gate/source"
-			(at 222.25 106.68 0)
+			(at 222.25 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10318,7 +10323,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 213.36 96.52 0)
+		(at 213.36 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10327,7 +10332,7 @@
 		(fields_autoplaced yes)
 		(uuid "dfaeb9e0-06bf-4681-9b92-e51ecb824ffd")
 		(property "Reference" "R6"
-			(at 215.9 95.2499 0)
+			(at 215.9 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10336,7 +10341,7 @@
 			)
 		)
 		(property "Value" "1k"
-			(at 215.9 97.7899 0)
+			(at 215.9 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10345,7 +10350,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal"
-			(at 214.376 96.774 90)
+			(at 214.376 89.154 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10354,7 +10359,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 213.36 96.52 0)
+			(at 213.36 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10363,7 +10368,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 213.36 96.52 0)
+			(at 213.36 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10696,7 +10701,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 224.79 114.3 0)
+		(at 224.79 106.68 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10705,7 +10710,7 @@
 		(fields_autoplaced yes)
 		(uuid "e1debbde-f106-4fa5-81bf-cfdc3fca1e1d")
 		(property "Reference" "#PWR024"
-			(at 224.79 120.65 0)
+			(at 224.79 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10714,7 +10719,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 224.79 119.38 0)
+			(at 224.79 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10723,7 +10728,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 114.3 0)
+			(at 224.79 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10732,7 +10737,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 114.3 0)
+			(at 224.79 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10741,7 +10746,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 224.79 114.3 0)
+			(at 224.79 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10771,7 +10776,7 @@
 		(dnp no)
 		(uuid "e698d147-17f0-450d-9e97-63b553ed314b")
 		(property "Reference" "J1"
-			(at 134.874 41.148 0)
+			(at 134.874 27.686 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10780,7 +10785,7 @@
 			)
 		)
 		(property "Value" "Samtec SSW-104-03-F-S-RA"
-			(at 138.176 41.148 0)
+			(at 131.318 41.656 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11022,7 +11027,7 @@
 		(dnp no)
 		(uuid "edbf7830-70f4-4654-a9e1-99ed2afc8ee5")
 		(property "Reference" "J2"
-			(at 255.27 46.9899 0)
+			(at 251.46 38.862 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11030,8 +11035,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Samtec SSW-106-01-L-S"
-			(at 259.334 61.468 90)
+		(property "Value" "Molex 901361106"
+			(at 246.126 57.404 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11039,7 +11044,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Library:SAMTEC_SSW-106-01-X-S"
+		(property "Footprint" "Library:CONN_SDA-90136_V_06_MOL"
 			(at 252.73 46.99 0)
 			(effects
 				(font
@@ -11066,22 +11071,22 @@
 				(hide yes)
 			)
 		)
-		(pin "05"
+		(pin "4"
 			(uuid "c5c7be5f-0b22-4a67-8b32-d5bf0eb322dc")
 		)
-		(pin "02"
+		(pin "1"
 			(uuid "221d34be-e5aa-42d0-b096-24a24ace08c4")
 		)
-		(pin "06"
+		(pin "5"
 			(uuid "37648d4a-f28b-415c-8e5a-4d1a2e121ad7")
 		)
-		(pin "04"
+		(pin "3"
 			(uuid "b2f2f575-2f71-42d5-a274-27d43ec103e6")
 		)
-		(pin "03"
+		(pin "2"
 			(uuid "9b56dc15-70f1-41c3-9259-13730a246ea4")
 		)
-		(pin "01"
+		(pin "6"
 			(uuid "5e8d091e-8f80-40c6-90c4-cb12c1ebf71b")
 		)
 		(instances
@@ -11231,7 +11236,7 @@
 	)
 	(symbol
 		(lib_id "Diode:1N914")
-		(at 204.47 104.14 0)
+		(at 204.47 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11239,7 +11244,7 @@
 		(dnp no)
 		(uuid "f61cc01f-6cb1-476a-a395-7a0dc5b71ff4")
 		(property "Reference" "D2"
-			(at 204.47 97.79 0)
+			(at 204.47 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11247,7 +11252,7 @@
 			)
 		)
 		(property "Value" "1N914"
-			(at 204.47 100.33 0)
+			(at 204.47 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11255,7 +11260,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 204.47 108.585 0)
+			(at 204.47 100.965 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11264,7 +11269,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.vishay.com/docs/85622/1n914.pdf"
-			(at 204.47 104.14 0)
+			(at 204.47 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11273,7 +11278,7 @@
 			)
 		)
 		(property "Description" "100V 0.3A Small Signal Fast Switching Diode, DO-35"
-			(at 204.47 104.14 0)
+			(at 204.47 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11282,7 +11287,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 204.47 104.14 0)
+			(at 204.47 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11291,7 +11296,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 204.47 104.14 0)
+			(at 204.47 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
