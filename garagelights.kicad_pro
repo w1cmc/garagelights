@@ -244,7 +244,12 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "lib_symbol_mismatch|1358900|330200|e698d147-17f0-450d-9e97-63b553ed314b|00000000-0000-0000-0000-000000000000|||",
+        "Edited pin numbers to match Samtec footprint"
+      ]
+    ],
     "meta": {
       "version": 0
     },

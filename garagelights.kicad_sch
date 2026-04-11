@@ -3698,6 +3698,12 @@
 		(uuid "d428e9e8-e743-4215-b774-a7bfdb1c2e84")
 	)
 	(junction
+		(at 44.45 139.7)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "de0a7d78-974f-4250-b59b-49583ed04594")
+	)
+	(junction
 		(at 52.07 139.7)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4234,6 +4240,16 @@
 			(type default)
 		)
 		(uuid "40c7fe60-dca8-4a15-a155-76979c5ea341")
+	)
+	(wire
+		(pts
+			(xy 44.45 139.7) (xy 52.07 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4132d93b-d5cd-4f7e-9385-33ac64233489")
 	)
 	(wire
 		(pts
@@ -5417,7 +5433,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 139.7) (xy 52.07 139.7)
+			(xy 43.18 139.7) (xy 44.45 139.7)
 		)
 		(stroke
 			(width 0)
@@ -8787,6 +8803,72 @@
 			(project ""
 				(path "/8304b3b7-1ae3-4935-a8ef-a9ab1b0a3004"
 					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 44.45 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9d732207-9f21-4355-b011-2ba96e7ad217")
+		(property "Reference" "#FLG02"
+			(at 44.45 137.795 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 44.45 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 44.45 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 44.45 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fdbb3585-d0c4-4917-9e69-260f6014bfad")
+		)
+		(instances
+			(project "garagelights"
+				(path "/8304b3b7-1ae3-4935-a8ef-a9ab1b0a3004"
+					(reference "#FLG02")
 					(unit 1)
 				)
 			)
