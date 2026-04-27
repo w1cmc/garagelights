@@ -124,7 +124,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "Rev_A/")
+			(outputdirectory "Rev_B/")
 		)
 	)
 	(footprint "Package_TO_SOT_THT:TO-92S"
