@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "Garage Lights")
-		(rev "A")
+		(rev "B")
 		(comment 4 "Firmware-free ultrasonic range finder")
 	)
 	(lib_symbols
